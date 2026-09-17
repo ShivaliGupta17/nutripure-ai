@@ -106,8 +106,8 @@ Uses LangGraph's `interrupt()` primitive to freeze execution before report synth
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/yourusername/nutri_audit_agent.git
-cd nutri_audit_agent
+git clone https://github.com/ShivaliGupta17/nutripure-ai.git
+cd nutripure-ai
 
 # Create virtual environment
 python -m venv venv
@@ -140,30 +140,6 @@ python tests/test_day6.py
 streamlit run app.py
 ```
 Open `http://localhost:8501` in your browser.
-
----
-
-## 💼 Resume Bullet Points (ATS-Optimized)
-
-> **NutriPure AI | Autonomous Packaged Food Auditor & Chemical Deconstructor**  
-> *Python, LangGraph, ChromaDB, Model Context Protocol (MCP), Pydantic v2, Streamlit*
-> * Architected an end-to-end multimodal agentic auditor using **LangGraph**, **ChromaDB**, and **MCP** to detect deceptive marketing claims on packaged foods with zero false-positives across benchmark datasets.
-> * Built a **Regulatory RAG pipeline indexing 670 chunks** from the official **32-page Government of India FSSAI Gazette PDF** and WHO standards, producing exact legal clause citations for compliance violations.
-> * Implemented **Human-in-the-Loop (HITL) checkpointing via `SqliteSaver` and `interrupt()`**, freezing state to gate verdicts against personalized medical profiles (Diabetes, Celiac, Pediatric) before resuming graph execution.
-> * Developed an **MCP tool registry** for standardized external chemical toxicity discovery and live government recall notice querying over JSON-RPC schemas.
-
----
-
-## 🎯 Technical Interview Q&A Preparation
-
-#### Q1: "Why did you use LangGraph instead of standard LangChain chains?"
-> *"Standard LangChain chains are strictly linear (DAGs) and stateless. Food safety auditing requires multi-step reasoning, cyclic reflection loops (re-retrieving context if evidence is weak), and state persistence. LangGraph provides first-class support for cyclical graphs, conditional edge routing, and state checkpointing via `interrupt()`."*
-
-#### Q2: "How do you prevent hallucinations when checking food laws?"
-> *"I implemented a dual-grounding mechanism: First, all legal clauses are retrieved from a ChromaDB vector index loaded with the official 32-page FSSAI Gazette Notification. Second, claim verification is separated from report synthesis into dedicated grading nodes, requiring explicit citations before a contradiction item can be formed."*
-
-#### Q3: "Why did you use SQLite for checkpointing instead of PostgreSQL?"
-> *"For this demonstration, `SqliteSaver` was chosen because it is serverless, single-file, and completely portable with zero external database dependencies. However, because LangGraph checkpointers inherit from `BaseCheckpointSaver`, the system is fully decoupled—swapping `SqliteSaver` for `PostgresSaver` in a multi-user Kubernetes environment requires only a single connection string change."*
 
 ---
 
