@@ -27,6 +27,16 @@ class VisionLabelExtractor:
         self.groq_api_key = os.getenv("GROQ_API_KEY")
         self.gemini_api_key = os.getenv("GEMINI_API_KEY")
         
+        # Support Streamlit Community Cloud Secrets (st.secrets)
+        try:
+            import streamlit as st
+            if not self.groq_api_key and hasattr(st, "secrets") and "GROQ_API_KEY" in st.secrets:
+                self.groq_api_key = st.secrets["GROQ_API_KEY"]
+            if not self.gemini_api_key and hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
+                self.gemini_api_key = st.secrets["GEMINI_API_KEY"]
+        except Exception:
+            pass
+
         # If user explicitly passed an api_key
         if api_key:
             if api_key.startswith("gsk_"):

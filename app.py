@@ -11,6 +11,15 @@ from typing import Optional, List, Dict, Any
 import streamlit as st
 from PIL import Image
 
+# Automatically sync Streamlit Cloud Secrets into environment variables
+try:
+    if hasattr(st, "secrets"):
+        for _sec_k, _sec_v in st.secrets.items():
+            if isinstance(_sec_v, str):
+                os.environ.setdefault(_sec_k, _sec_v)
+except Exception:
+    pass
+
 def md_to_html(text: str) -> str:
     """Converts markdown formatting to HTML tags for safe rendering inside raw HTML div cards."""
     if not text:
