@@ -1,0 +1,150 @@
+[
+  {
+    "id": "prod_001",
+    "product_name": "VitaWheat Atta Digestives",
+    "brand": "VitaWheat Foods",
+    "claimed_category": "Healthy Biscuits",
+    "front_claims": [
+      "100% Whole Wheat Atta",
+      "Goodness of High Fiber",
+      "Zero Trans Fat",
+      "Healthy Tea-Time Snack"
+    ],
+    "ingredients_text": "Refined Wheat Flour (Maida) 62%, Whole Wheat Flour (Atta) 24%, Edible Vegetable Oil (Refined Palm Oil), Sugar, Invert Sugar Syrup, Raising Agents [INS 503(ii), INS 500(ii)], Emulsifier [INS 471, INS 322], Iodised Salt, Artificial Flavouring (Milk, Vanilla).",
+    "nutritional_facts_per_100g": {
+      "energy_kcal": 478.0,
+      "protein_g": 6.8,
+      "carbohydrates_g": 68.0,
+      "total_sugars_g": 24.5,
+      "added_sugars_g": 22.0,
+      "dietary_fiber_g": 4.5,
+      "total_fat_g": 20.0,
+      "saturated_fat_g": 10.2,
+      "trans_fat_g": 0.05,
+      "sodium_mg": 380.0
+    },
+    "ground_truth_violations": [
+      "Misleading '100% Whole Wheat Atta' claim: Refined wheat flour (Maida) makes up 62% of the flour component, while Atta is only 24% (violates FSSAI Advertising and Claims Regulation 2020 Section 7).",
+      "Unhealthy fat profile: Refined Palm Oil is the primary fat source with > 50% saturated palmitic acid.",
+      "Hidden sugar splitting: Uses Sugar (22g) alongside Invert Sugar Syrup to keep table sugar lower in weight."
+    ]
+  },
+  {
+    "id": "prod_002",
+    "product_name": "ChocoMalt Junior Health Drink",
+    "brand": "NutriHealth Labs",
+    "claimed_category": "Children Growth Supplement",
+    "front_claims": [
+      "No Added Sugar",
+      "Immunity & Brain Growth",
+      "With 12 Vital Nutrients",
+      "Doctor Recommended Formula"
+    ],
+    "ingredients_text": "Malt Extract 42%, Cereal Extract, Milk Solids, Maltodextrin 26%, Cocoa Solids 8%, Non-Sugar Artificial Sweetener [INS 955 (Sucralose)], Emulsifier [INS 322], Acidity Regulators [INS 501(i), INS 500(ii)], Vitamin Mineral Premix, Natural Identical Vanilla Flavour.",
+    "nutritional_facts_per_100g": {
+      "energy_kcal": 385.0,
+      "protein_g": 7.5,
+      "carbohydrates_g": 78.0,
+      "total_sugars_g": 18.0,
+      "added_sugars_g": 0.0,
+      "dietary_fiber_g": 2.0,
+      "total_fat_g": 2.2,
+      "saturated_fat_g": 1.1,
+      "trans_fat_g": 0.0,
+      "sodium_mg": 160.0
+    },
+    "ground_truth_violations": [
+      "Deceptive 'No Added Sugar' claim: Contains 26% Maltodextrin (Glycemic Index = 110-185, spikes blood glucose faster than table sugar) to substitute sucrose (violates FSSAI Schedule II Section 4).",
+      "Violation of WHO 2023 Non-Sugar Sweetener (NSS) Guidelines: Contains Sucralose (INS 955) in a children's daily growth beverage.",
+      "Ultra-processed formulation: High carbohydrate load (>78%) disguised as healthy malt."
+    ]
+  },
+  {
+    "id": "prod_003",
+    "product_name": "RealBerry 100% Natural Fruit Delight",
+    "brand": "SunOrchard Beverages",
+    "claimed_category": "Fruit Juice",
+    "front_claims": [
+      "100% Natural",
+      "No Preservatives",
+      "Loaded with Natural Vitamin C",
+      "Real Fruit Goodness"
+    ],
+    "ingredients_text": "Water, Mixed Fruit Reconstituted Juice Concentrate 12% (Apple Juice 7%, Pomegranate Juice 3%, Strawberry Puree 2%), Sugar, Acidity Regulator [INS 330], Antioxidant [INS 300 (Ascorbic Acid / Vitamin C)], Class II Preservative [INS 211 (Sodium Benzoate)], Synthetic Food Color [INS 122 (Carmoisine)], Nature Identical Mixed Berry Flavouring Substances.",
+    "nutritional_facts_per_100g": {
+      "energy_kcal": 58.0,
+      "protein_g": 0.1,
+      "carbohydrates_g": 14.2,
+      "total_sugars_g": 13.8,
+      "added_sugars_g": 10.5,
+      "dietary_fiber_g": 0.1,
+      "total_fat_g": 0.0,
+      "saturated_fat_g": 0.0,
+      "trans_fat_g": 0.0,
+      "sodium_mg": 45.0
+    },
+    "ground_truth_violations": [
+      "Blatant '100% Natural' and 'No Preservatives' violation: Contains Class II synthetic preservative Sodium Benzoate (INS 211) and synthetic dye Carmoisine (INS 122) (FSSAI Regulation 4 violation).",
+      "Severe chemical hazard: Combination of Sodium Benzoate (INS 211) and Vitamin C (INS 300) in an acidic drink can react to synthesize Benzene (known human carcinogen).",
+      "Diluted juice: 88% of the product is filtered water and refined sugar, with only 12% reconstituted juice concentrate."
+    ]
+  },
+  {
+    "id": "prod_004",
+    "product_name": "ProMax Ultra Keto Protein Bar",
+    "brand": "ProMax Nutrition",
+    "claimed_category": "Sports Nutrition",
+    "front_claims": [
+      "22g High Protein",
+      "Zero Sugar / Keto Friendly",
+      "Clean Nutrition",
+      "Guilt-Free Snack"
+    ],
+    "ingredients_text": "Protein Blend (Whey Protein Isolate, Soya Protein Crisps) 32%, Prebiotic Dietary Fibre (Polydextrose), Fractionated Palm Kernel Oil, Humectant [INS 422], Artificial Sweeteners [INS 955 (Sucralose), INS 950 (Acesulfame K)], Synthetic Food Colour [INS 150d (Caramel IV)], Emulsifiers [INS 322, INS 471], Natural and Artificial Flavours.",
+    "nutritional_facts_per_100g": {
+      "energy_kcal": 412.0,
+      "protein_g": 36.6,
+      "carbohydrates_g": 32.0,
+      "total_sugars_g": 1.2,
+      "added_sugars_g": 0.0,
+      "polyols_g": 18.0,
+      "dietary_fiber_g": 12.0,
+      "total_fat_g": 16.5,
+      "saturated_fat_g": 11.2,
+      "trans_fat_g": 0.1,
+      "sodium_mg": 280.0
+    },
+    "ground_truth_violations": [
+      "Contains Caramel Color IV (INS 150d): Contains trace 4-methylimidazole (4-MEI), listed as potentially carcinogenic.",
+      "High Saturated Fat: Relies on fractionated palm kernel oil (11.2g saturated fat per 100g) while claiming 'Clean Nutrition'.",
+      "Artificial Sweetener Cocktail: Blends Sucralose (INS 955) and Acesulfame K (INS 950) with high sugar alcohol load (polyols 18g) which causes severe gastric distress.",
+      "Classified as NOVA Group 4 (Ultra-Processed Food)."
+    ]
+  },
+  {
+    "id": "prod_005",
+    "product_name": "PureGrain 100% Whole Rolled Oats",
+    "brand": "PureGrain Farms",
+    "claimed_category": "Breakfast Cereal",
+    "front_claims": [
+      "100% Wholegrain Rolled Oats",
+      "High Dietary Beta-Glucan Fiber",
+      "No Added Sugar or Preservatives",
+      "100% Natural Single Ingredient"
+    ],
+    "ingredients_text": "100% Whole Grain Rolled Oats.",
+    "nutritional_facts_per_100g": {
+      "energy_kcal": 389.0,
+      "protein_g": 13.5,
+      "carbohydrates_g": 66.0,
+      "total_sugars_g": 1.0,
+      "added_sugars_g": 0.0,
+      "dietary_fiber_g": 10.5,
+      "total_fat_g": 6.8,
+      "saturated_fat_g": 1.2,
+      "trans_fat_g": 0.0,
+      "sodium_mg": 4.0
+    },
+    "ground_truth_violations": []
+  }
+]

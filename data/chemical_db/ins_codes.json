@@ -1,0 +1,798 @@
+{
+  "additives": [
+    {
+      "code": "INS 503(ii)",
+      "aliases": [
+        "E503",
+        "503(ii)",
+        "Ammonium Bicarbonate"
+      ],
+      "name": "Ammonium Hydrogen Carbonate",
+      "category": "Raising Agent",
+      "risk_level": "Low",
+      "description": "Leavening agent used in baked goods. Emits ammonia during high-temperature baking.",
+      "health_warnings": [
+        "May produce mild irritation in respiratory tract if inhaled in raw powder form, generally safe once baked."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 500(ii)",
+      "aliases": [
+        "E500",
+        "500(ii)",
+        "Sodium Bicarbonate",
+        "Baking Soda"
+      ],
+      "name": "Sodium Hydrogen Carbonate",
+      "category": "Acidity Regulator / Raising Agent",
+      "risk_level": "Safe",
+      "description": "Common baking soda used as an aerating agent.",
+      "health_warnings": [
+        "High sodium contribution for hypertensive patients."
+      ],
+      "contraindications": [
+        "Hypertension"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 621",
+      "aliases": [
+        "E621",
+        "621",
+        "MSG",
+        "Monosodium L-glutamate"
+      ],
+      "name": "Monosodium Glutamate",
+      "category": "Flavor Enhancer",
+      "risk_level": "Moderate",
+      "description": "Umami flavor enhancer commonly used in savory snacks, instant noodles, and soups.",
+      "health_warnings": [
+        "Can cause headache, flushing, and sweating in sensitive individuals ('Chinese Restaurant Syndrome'). Not recommended for infants."
+      ],
+      "contraindications": [
+        "Asthma",
+        "Infants",
+        "Glutamate Sensitivity"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 407",
+      "aliases": [
+        "E407",
+        "407",
+        "Carrageenan"
+      ],
+      "name": "Carrageenan",
+      "category": "Thickener / Stabilizer",
+      "risk_level": "High",
+      "description": "Polysaccharide extracted from red edible seaweeds, used in chocolate milk, vegan dairy, and ice cream.",
+      "health_warnings": [
+        "Strong clinical evidence of intestinal mucosal inflammation, ulceration, and IBS exacerbation."
+      ],
+      "contraindications": [
+        "Inflammatory Bowel Disease (IBD)",
+        "IBS",
+        "Colitis"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 955",
+      "aliases": [
+        "E955",
+        "955",
+        "Sucralose",
+        "Splenda"
+      ],
+      "name": "Sucralose",
+      "category": "Artificial Sweetener",
+      "risk_level": "Moderate",
+      "description": "Chlorinated zero-calorie artificial sweetener 600x sweeter than sucrose.",
+      "health_warnings": [
+        "Alters gut microbiome diversity; thermal degradation during baking produces toxic chloropropanols; WHO warns against long-term use for weight control."
+      ],
+      "contraindications": [
+        "Gut Dysbiosis",
+        "Pregnancy",
+        "Children"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 951",
+      "aliases": [
+        "E951",
+        "951",
+        "Aspartame",
+        "NutraSweet"
+      ],
+      "name": "Aspartame",
+      "category": "Artificial Sweetener",
+      "risk_level": "High",
+      "description": "Methyl ester of phenylalanine/aspartic acid. 200x sweeter than sugar.",
+      "health_warnings": [
+        "Classified by WHO/IARC as Group 2B (Possibly carcinogenic to humans). Decomposes into formaldehyde and phenylalanine under heat."
+      ],
+      "contraindications": [
+        "Phenylketonuria (PKU)",
+        "Pregnancy",
+        "Migraine Prone"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 950",
+      "aliases": [
+        "E950",
+        "950",
+        "Acesulfame K",
+        "Ace-K"
+      ],
+      "name": "Acesulfame Potassium",
+      "category": "Artificial Sweetener",
+      "risk_level": "Moderate",
+      "description": "Calorie-free sugar substitute often blended with sucralose or aspartame to mask bitter aftertastes.",
+      "health_warnings": [
+        "Contains methylene chloride derivatives from production; associated with metabolic disruption."
+      ],
+      "contraindications": [
+        "Pregnancy",
+        "Thyroid Issues"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 150d",
+      "aliases": [
+        "E150d",
+        "150d",
+        "Caramel Color IV",
+        "Ammonia Sulphite Caramel"
+      ],
+      "name": "Sulphite Ammonia Caramel",
+      "category": "Food Coloring",
+      "risk_level": "High",
+      "description": "Dark brown coloring agent manufactured by heating carbohydrates with ammonia and sulphite compounds (used in colas and gravies).",
+      "health_warnings": [
+        "Contains 4-methylimidazole (4-MEI), a potential animal carcinogen."
+      ],
+      "contraindications": [
+        "Children"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 102",
+      "aliases": [
+        "E102",
+        "102",
+        "Tartrazine",
+        "FD&C Yellow 5"
+      ],
+      "name": "Tartrazine",
+      "category": "Synthetic Food Color",
+      "risk_level": "High",
+      "description": "Synthetic lemon-yellow azo dye used in extruded snacks, confectionery, and soft drinks.",
+      "health_warnings": [
+        "Linked to hyperactivity and attention deficit in children (Southampton study warning required in EU). Strong trigger for hives and asthma."
+      ],
+      "contraindications": [
+        "ADHD",
+        "Asthma",
+        "Aspirin Sensitivity",
+        "Children"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 211",
+      "aliases": [
+        "E211",
+        "211",
+        "Sodium Benzoate"
+      ],
+      "name": "Sodium Benzoate",
+      "category": "Preservative",
+      "risk_level": "Moderate",
+      "description": "Antimicrobial preservative used in acidic juices, carbonated beverages, and pickles.",
+      "health_warnings": [
+        "Forms carcinogenic benzene when combined with Vitamin C (Ascorbic acid). May exacerbate hyperactivity in children."
+      ],
+      "contraindications": [
+        "Children",
+        "Vitamin C Co-Ingestion"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 322",
+      "aliases": [
+        "E322",
+        "322",
+        "Soy Lecithin",
+        "Lecithin"
+      ],
+      "name": "Lecithins",
+      "category": "Emulsifier / Antioxidant",
+      "risk_level": "Safe",
+      "description": "Naturally derived fatty substance from soy or sunflower used to blend oil and water phases.",
+      "health_warnings": [
+        "Generally recognized as safe. Potential allergen if derived from unrefined soy."
+      ],
+      "contraindications": [
+        "Severe Soy Allergy"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 471",
+      "aliases": [
+        "E471",
+        "471",
+        "Mono- and Diglycerides of Fatty Acids"
+      ],
+      "name": "Mono- and Di-glycerides of Fatty Acids",
+      "category": "Emulsifier",
+      "risk_level": "Moderate",
+      "description": "Synthetic fat emulsifier extending shelf life in breads, cakes, and margarines. Often contains hidden trans fats.",
+      "health_warnings": [
+        "Can introduce small quantities of unesterified trans-fatty acids not required to be declared on zero-trans-fat labels."
+      ],
+      "contraindications": [
+        "Cardiovascular Disease",
+        "High LDL Cholesterol"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 635",
+      "aliases": [
+        "E635",
+        "635",
+        "Disodium 5-ribonucleotides",
+        "Disodium Ribonucleotides",
+        "I+G",
+        "Flavor Enhancer 635",
+        "Flavour Enhancer 635"
+      ],
+      "name": "Disodium 5-ribonucleotides",
+      "category": "Flavor Enhancer",
+      "risk_level": "Moderate",
+      "description": "Synergistic umami enhancer combining inosinate and guanylate. 4x more potent than MSG alone; widely used in instant noodles, crisps, and tastemaker seasoning packets.",
+      "health_warnings": [
+        "Metabolizes into purines which rapidly elevate serum uric acid; can trigger acute gout flares. Suspected trigger for ribonucleotide contact dermatitis and asthmatic bronchospasms. Not permitted in infant foods."
+      ],
+      "contraindications": [
+        "Gout",
+        "Hyperuricemia",
+        "Asthma",
+        "Infants & Young Children"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 508",
+      "aliases": [
+        "E508",
+        "508",
+        "Potassium Chloride",
+        "Thickener 508"
+      ],
+      "name": "Potassium Chloride",
+      "category": "Thickener / Gelling Agent / Mineral Salt",
+      "risk_level": "Safe",
+      "description": "Naturally occurring mineral salt used to firm noodle texture, maintain gluten elasticity, and serve as a sodium-reducing mineral agent.",
+      "health_warnings": [
+        "Generally recognized as safe; however, high potassium load is strictly contraindicated for patients with chronic kidney disease (CKD) who cannot excrete potassium."
+      ],
+      "contraindications": [
+        "Chronic Kidney Disease (CKD)",
+        "Hyperkalemia"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 412",
+      "aliases": [
+        "E412",
+        "412",
+        "Guar Gum",
+        "Thickener 412"
+      ],
+      "name": "Guar Gum",
+      "category": "Thickener / Stabilizer",
+      "risk_level": "Safe",
+      "description": "Water-soluble natural fiber extracted from guar beans. Imparts viscous body and springiness to instant noodles and sauces.",
+      "health_warnings": [
+        "Generally safe prebiotic fiber. High dietary doses can cause abdominal gas, bloating, and gastrointestinal cramping in FODMAP-sensitive individuals."
+      ],
+      "contraindications": [
+        "Severe IBS (FODMAP sensitive)"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 501(i)",
+      "aliases": [
+        "E501(i)",
+        "501(i)",
+        "E501",
+        "501",
+        "Potassium Carbonate"
+      ],
+      "name": "Potassium Carbonate",
+      "category": "Acidity Regulator / Kansui Salt",
+      "risk_level": "Safe",
+      "description": "Traditional alkaline Kansui salt essential for giving instant ramen and noodles their characteristic chewy texture, springiness, and golden hue.",
+      "health_warnings": [
+        "Generally recognized as safe in customary food usage."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 451(ii)",
+      "aliases": [
+        "E451(ii)",
+        "451(ii)",
+        "E451",
+        "451",
+        "Sodium Tripolyphosphate",
+        "STPP",
+        "Humectant 451(ii)"
+      ],
+      "name": "Sodium Tripolyphosphate",
+      "category": "Humectant / Moisture Retainer",
+      "risk_level": "Moderate",
+      "description": "Inorganic polyphosphate salt used to retain moisture, prevent weeping, and accelerate rehydration of noodle strands in boiling water.",
+      "health_warnings": [
+        "Frequent consumption of industrial phosphate additives is clinically linked to elevated serum phosphate, vascular endothelial calcification, and increased cardiovascular and renal disease burden."
+      ],
+      "contraindications": [
+        "Chronic Kidney Disease",
+        "Cardiovascular Disease",
+        "Hypertension"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 451(i)",
+      "aliases": [
+        "E451(i)",
+        "451(i)",
+        "Pentasodium Triphosphate"
+      ],
+      "name": "Pentasodium Triphosphate",
+      "category": "Humectant / Emulsifier",
+      "risk_level": "Moderate",
+      "description": "Phosphate salt used as a water-binding and emulsifying agent in processed meat and extruded starch products.",
+      "health_warnings": [
+        "Elevates dietary phosphate burden, placing strain on renal clearance pathways."
+      ],
+      "contraindications": [
+        "Chronic Kidney Disease",
+        "Hypertension"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 330",
+      "aliases": [
+        "E330",
+        "330",
+        "Citric Acid",
+        "Acidity Regulator 330"
+      ],
+      "name": "Citric Acid",
+      "category": "Acidity Regulator / Antioxidant",
+      "risk_level": "Safe",
+      "description": "Naturally occurring fruit acid used industrially for tangy taste, antioxidant synergism, and microbial shelf-life preservation.",
+      "health_warnings": [
+        "Generally recognized as safe; high frequent exposure to acidic beverages and snacks can accelerate tooth enamel demineralization."
+      ],
+      "contraindications": [
+        "Acid Reflux (GERD)"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 627",
+      "aliases": [
+        "E627",
+        "627",
+        "Disodium 5-guanylate",
+        "Disodium Guanylate",
+        "GMP"
+      ],
+      "name": "Disodium 5-guanylate",
+      "category": "Flavor Enhancer",
+      "risk_level": "Moderate",
+      "description": "Nucleotide flavor enhancer used alongside glutamate to create intense savory umami depth.",
+      "health_warnings": [
+        "Metabolizes to uric acid; contraindicated for individuals prone to gout."
+      ],
+      "contraindications": [
+        "Gout",
+        "Hyperuricemia"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 631",
+      "aliases": [
+        "E631",
+        "631",
+        "Disodium 5-inosinate",
+        "Disodium Inosinate",
+        "IMP"
+      ],
+      "name": "Disodium 5-inosinate",
+      "category": "Flavor Enhancer",
+      "risk_level": "Moderate",
+      "description": "Nucleotide flavor enhancer frequently compounded with MSG to enhance palatability.",
+      "health_warnings": [
+        "Purine content contributes to elevated serum uric acid levels."
+      ],
+      "contraindications": [
+        "Gout",
+        "Asthma"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 319",
+      "aliases": [
+        "E319",
+        "319",
+        "TBHQ",
+        "Tertiary Butylhydroquinone"
+      ],
+      "name": "Tertiary Butylhydroquinone",
+      "category": "Synthetic Antioxidant",
+      "risk_level": "High",
+      "description": "Petroleum-derived synthetic preservative sprayed into vegetable frying oils to prevent oxidation and rancidity in instant noodles and fried crisps.",
+      "health_warnings": [
+        "High-dose toxicology studies in animal models reveal cellular liver damage, vision alterations, and immunological impairment. Strictly restricted under food laws."
+      ],
+      "contraindications": [
+        "Children",
+        "Immune Disorders",
+        "Liver Disease"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 320",
+      "aliases": [
+        "E320",
+        "320",
+        "BHA",
+        "Butylated Hydroxyanisole"
+      ],
+      "name": "Butylated Hydroxyanisole",
+      "category": "Synthetic Antioxidant",
+      "risk_level": "High",
+      "description": "Synthetic antioxidant preservative used to prevent fat spoilage in savory packaged goods.",
+      "health_warnings": [
+        "Classified by WHO/IARC as possibly carcinogenic to humans; documented endocrine disrupting activity."
+      ],
+      "contraindications": [
+        "Children",
+        "Pregnancy"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 321",
+      "aliases": [
+        "E321",
+        "321",
+        "BHT",
+        "Butylated Hydroxytoluene"
+      ],
+      "name": "Butylated Hydroxytoluene",
+      "category": "Synthetic Antioxidant",
+      "risk_level": "High",
+      "description": "Synthetic fat-soluble antioxidant used in packaging liners and fried snack foods.",
+      "health_warnings": [
+        "Linked to hepatic and renal strain in animal bioassays."
+      ],
+      "contraindications": [
+        "Children",
+        "Liver Disease"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 110",
+      "aliases": [
+        "E110",
+        "110",
+        "Sunset Yellow FCF",
+        "FD&C Yellow 6"
+      ],
+      "name": "Sunset Yellow FCF",
+      "category": "Synthetic Food Color",
+      "risk_level": "High",
+      "description": "Synthetic petroleum azo dye producing bright sunset-orange color in snacks, beverage powders, and candies.",
+      "health_warnings": [
+        "Southampton University research established strong links to attention deficit and hyperactivity in children. Frequent allergen for asthmatics."
+      ],
+      "contraindications": [
+        "ADHD",
+        "Asthma",
+        "Aspirin Sensitivity",
+        "Children"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 122",
+      "aliases": [
+        "E122",
+        "122",
+        "Carmoisine",
+        "Azorubine"
+      ],
+      "name": "Carmoisine",
+      "category": "Synthetic Food Color",
+      "risk_level": "High",
+      "description": "Synthetic red coal-tar azo dye.",
+      "health_warnings": [
+        "Banned in the USA and Canada. Associated with hyperreactivity in young children and cutaneous urticaria."
+      ],
+      "contraindications": [
+        "Children",
+        "Asthma",
+        "Skin Allergies"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 171",
+      "aliases": [
+        "E171",
+        "171",
+        "Titanium Dioxide"
+      ],
+      "name": "Titanium Dioxide",
+      "category": "Food Whitening Agent",
+      "risk_level": "High",
+      "description": "Inorganic white mineral pigment.",
+      "health_warnings": [
+        "BANNED in the European Union (EFSA 2021) as a food additive due to genotoxicity concerns and nanoparticle accumulation damaging cellular DNA."
+      ],
+      "contraindications": [
+        "All Consumers (EFSA Genotoxicity Ban)"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 415",
+      "aliases": [
+        "E415",
+        "415",
+        "Xanthan Gum"
+      ],
+      "name": "Xanthan Gum",
+      "category": "Thickener / Stabilizer",
+      "risk_level": "Safe",
+      "description": "Bacterial fermentation polysaccharide providing stable viscosity across wide temperature and pH ranges.",
+      "health_warnings": [
+        "Generally recognized as safe; mild laxative effect if consumed in excess."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 466",
+      "aliases": [
+        "E466",
+        "466",
+        "Sodium Carboxymethyl Cellulose",
+        "Cellulose Gum",
+        "CMC"
+      ],
+      "name": "Sodium Carboxymethyl Cellulose",
+      "category": "Thickener / Emulsifier",
+      "risk_level": "Moderate",
+      "description": "Modified cellulose ether used to thicken sauces, gravies, and bakery products.",
+      "health_warnings": [
+        "Peer-reviewed studies indicate CMC degrades intestinal mucus barriers, facilitating bacterial translocation and gut dysbiosis."
+      ],
+      "contraindications": [
+        "Inflammatory Bowel Disease (IBD)",
+        "Colitis",
+        "Gut Inflammation"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 472e",
+      "aliases": [
+        "E472e",
+        "472e",
+        "DATEM"
+      ],
+      "name": "Diacetyl Tartaric Acid Esters of Mono- and Diglycerides",
+      "category": "Emulsifier / Dough Conditioner",
+      "risk_level": "Moderate",
+      "description": "Synthetic emulsifier used to build dough strength, gas retention, and volume in bread and extruded noodles.",
+      "health_warnings": [
+        "Processed fat compound containing minor unesterified trans fat fractions."
+      ],
+      "contraindications": [
+        "Cardiovascular Disease"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 476",
+      "aliases": [
+        "E476",
+        "476",
+        "PGPR",
+        "Polyglycerol Polyricinoleate"
+      ],
+      "name": "Polyglycerol Polyricinoleate",
+      "category": "Emulsifier",
+      "risk_level": "Moderate",
+      "description": "Synthetic castor-oil derived emulsifier used in chocolates to improve flow and replace cocoa butter.",
+      "health_warnings": [
+        "Synthetic fat substitute permitted under strict dosage limits."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 202",
+      "aliases": [
+        "E202",
+        "202",
+        "Potassium Sorbate"
+      ],
+      "name": "Potassium Sorbate",
+      "category": "Preservative",
+      "risk_level": "Safe",
+      "description": "Potassium salt of natural sorbic acid preventing yeast and mold spoilage.",
+      "health_warnings": [
+        "Generally recognized as safe."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 223",
+      "aliases": [
+        "E223",
+        "223",
+        "Sodium Metabisulphite"
+      ],
+      "name": "Sodium Metabisulphite",
+      "category": "Preservative / Antioxidant",
+      "risk_level": "High",
+      "description": "Sulphite-releasing agent preventing enzymatic discoloration in potato and dough preparations.",
+      "health_warnings": [
+        "Triggers severe, potentially life-threatening bronchospasms in sensitive asthmatics."
+      ],
+      "contraindications": [
+        "Asthma",
+        "Sulphite Allergy"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 282",
+      "aliases": [
+        "E282",
+        "282",
+        "Calcium Propionate"
+      ],
+      "name": "Calcium Propionate",
+      "category": "Preservative",
+      "risk_level": "Low",
+      "description": "Organic calcium salt inhibiting fungal growth in commercial bakery lines.",
+      "health_warnings": [
+        "Clinical trials reported behavioral changes, restlessness, and sleep disturbances in children."
+      ],
+      "contraindications": [
+        "Paediatric Hyperactivity"
+      ],
+      "is_disguised_sugar": false
+    },
+    {
+      "code": "INS 551",
+      "aliases": [
+        "E551",
+        "551",
+        "Silicon Dioxide",
+        "Silica"
+      ],
+      "name": "Silicon Dioxide",
+      "category": "Anti-caking Agent",
+      "risk_level": "Safe",
+      "description": "Inert synthetic amorphous silica added to seasoning powders and spice mixes to prevent caking.",
+      "health_warnings": [
+        "Generally recognized as safe at prescribed limits."
+      ],
+      "contraindications": [],
+      "is_disguised_sugar": false
+    }
+  ],
+  "disguised_sugars": [
+    {
+      "name": "Maltodextrin",
+      "glycemic_index": 110,
+      "risk_level": "High",
+      "description": "Hydrolyzed starch polymer rapidly digested into glucose with a higher glycemic index than pure sugar (GI 110-185 vs Sugar 65).",
+      "deceptive_practice": "Used in 'No Added Sugar' and 'Health Drink' powders as a bulking agent to evade sugar declaration thresholds.",
+      "contraindications": [
+        "Type 1 Diabetes",
+        "Type 2 Diabetes",
+        "Insulin Resistance",
+        "PCOS"
+      ]
+    },
+    {
+      "name": "Invert Sugar Syrup",
+      "glycemic_index": 70,
+      "risk_level": "High",
+      "description": "Equimolar mixture of glucose and fructose produced by splitting sucrose.",
+      "deceptive_practice": "Prevents crystallization and retains moisture in baked goods while masking true total sugar volume.",
+      "contraindications": [
+        "Diabetes",
+        "Fatty Liver (NAFLD)"
+      ]
+    },
+    {
+      "name": "High Fructose Corn Syrup",
+      "aliases": [
+        "HFCS",
+        "Corn Syrup Solids"
+      ],
+      "glycemic_index": 75,
+      "risk_level": "High",
+      "description": "Industrial liquid sweetener high in unbound fructose.",
+      "deceptive_practice": "Promotes visceral fat accumulation, hepatic de novo lipogenesis, and non-alcoholic fatty liver.",
+      "contraindications": [
+        "Fatty Liver",
+        "Metabolic Syndrome",
+        "Diabetes"
+      ]
+    },
+    {
+      "name": "Liquid Glucose",
+      "aliases": [
+        "Glucose Syrup"
+      ],
+      "glycemic_index": 100,
+      "risk_level": "High",
+      "description": "Purified concentrated aqueous solution of nutritive saccharides obtained from starch.",
+      "deceptive_practice": "Listed as an ingredient alongside table sugar to split sugar weighting in the ingredient hierarchy.",
+      "contraindications": [
+        "Diabetes",
+        "Obesity"
+      ]
+    },
+    {
+      "name": "Palm Oil / Palm Olein",
+      "aliases": [
+        "Fractionated Palm Oil",
+        "Refined Palm Olein",
+        "Vegetable Fat (Palm)"
+      ],
+      "glycemic_index": 0,
+      "risk_level": "High",
+      "description": "Cheap tropical oil containing 50% saturated palmitic acid.",
+      "deceptive_practice": "Labelled deceptively as 'Edible Vegetable Oil' without disclosing it is 100% refined palm oil to cut manufacturing costs.",
+      "contraindications": [
+        "Cardiovascular Disease",
+        "Elevated ApoB/LDL"
+      ]
+    }
+  ]
+}
